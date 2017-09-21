@@ -28,6 +28,14 @@ app.get('/onpageVSoffpage', function(req, res){
   res.sendFile(path.join(__dirname, 'views/portfolio-4.html'));
 });
 
+  app.get('/components', function(req, res){
+  res.sendFile(path.join(__dirname, 'views/portfolio-5.html'));
+});
+
+  app.get('/canonical', function(req, res){
+  res.sendFile(path.join(__dirname, 'views/portfolio-4.html'));
+});
+
   app.get('/services', function(req, res){
   res.sendFile(path.join(__dirname, 'views/services.html'));
 });
